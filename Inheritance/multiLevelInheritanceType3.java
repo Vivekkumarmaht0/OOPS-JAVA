@@ -1,6 +1,6 @@
 // Type 3: Multi-Level Inheritance --> GrandParents -> Parents -> Child
 package Inheritance;
-class Person {   // Person --> GrandParents
+class Person {   // Person --> GrandParents 
     String name;
     int age;
     char gender;
