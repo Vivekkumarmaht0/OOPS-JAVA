@@ -5,12 +5,14 @@ class Animal {
         System.out.println("Animal is making sound...");
     }
 }
-class Cat {
+class Cat extends Animal{
+    @Override
     void makeSound() {
         System.out.println("Meow...");
     }
 }
-class Dog {
+class Dog extends Animal{
+    @Override
     void makeSound() {
         System.out.println("Bhow Bhow...");
     }
