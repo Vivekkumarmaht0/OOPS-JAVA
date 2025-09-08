@@ -1,3 +1,11 @@
+/* 
+1. Achieved using:
+        Abstract Classes
+        Interfaces
+2. Abstract classes and interfaces cannot be used to create objects directly.
+3. They provide a blueprint for other classes.
+4. Abstract methods (methods without a body) force subclasses to provide implementation. */
+
 abstract class Animal {
     abstract void makeSound();     // abstract method 
 }
